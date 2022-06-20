@@ -1,0 +1,20 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "mvc challlenge 14",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Undisputed06/tech-blog.git"
+  },
+  "author": "GaryWilliamsJr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Undisputed06/tech-blog/issues"
+  },
+  "homepage": "https://github.com/Undisputed06/tech-blog#readme"
+}
