@@ -1,0 +1,11 @@
+<div>
+    <a href="/addpost" class="btn" type="submit"> Add New Post</a>
+</div>
+
+  {{#each posts as |post|}}
+  <button class="btn" type="submit">
+      <a href"/editpost/{{post.id}}">{{post.title}}</a>
+      <p class="posted-by">Posted by {{user.username}} on {{post.created_at}}</p>
+ </button>
+  {{/each}}
+
