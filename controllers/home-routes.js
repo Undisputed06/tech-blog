@@ -6,7 +6,7 @@ const { Post, User, Comment } = require('../models');
 
 router.get('/', (req, res) =>{
     Post.findAll({
-        attributes: ['id','post_text','title','created_at',],
+        attributes: ['id','title','post_text','created_at',],
         include: [
           {
             model: Comment,
@@ -40,6 +40,14 @@ router.get('/', (req, res) =>{
       }
     
       res.render('login');
+    });
+
+    router.get('/signup', (req, res)=>{
+      if (req.session.loggedIn) {
+        res.redirect('/');
+        return;
+      }
+      res.render('signup');
     });
 
   router.get('/dashboard', (req, res)=>{
