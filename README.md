@@ -15,7 +15,7 @@
 
   
   ## Usage 
-  
+  ![Screen Shot 2022-06-26 at 12 54 33 PM](https://user-images.githubusercontent.com/52983305/175827514-90175d1c-7a97-43b6-8820-2f568e072cca.png)
 
   ## License
   ISC
